@@ -1,0 +1,44 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/light_cyan">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/spInvoiceNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/tvPaymentDate"
+            android:text="Select Payment Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etPaymentAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Payment Amount"
+            android:minHeight="48dp" />
+
+        <Spinner
+            android:id="@+id/spPaymentMethod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/btnSavePayment"
+            android:text="Save Payment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>

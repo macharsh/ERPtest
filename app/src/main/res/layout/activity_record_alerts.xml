@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#C8EAEC">
+
+    <Spinner
+        android:id="@+id/spItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Item"
+        android:minHeight="48dp" />
+
+    <Spinner
+        android:id="@+id/spWarehouse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Warehouse"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etMinStockLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Minimum Stock Level"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnSaveAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Alert"
+        android:backgroundTint="#34729C"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"/>
+</LinearLayout>

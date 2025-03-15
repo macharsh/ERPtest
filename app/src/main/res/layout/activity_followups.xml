@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8EAEC"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Follow-ups"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1E5470"
+            android:layout_gravity="center"
+            android:paddingBottom="10dp" />
+
+        <Spinner
+            android:id="@+id/spinnerCustomerLead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btnSelectDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Date"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#34729C"
+            android:padding="12dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tvSelectedDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selected Date: None"
+            android:padding="10dp"
+            android:textColor="#1E5470"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnSelectTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Time"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#34729C"
+            android:padding="12dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tvSelectedTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selected Time: None"
+            android:padding="10dp"
+            android:textColor="#1E5470"
+            android:textStyle="bold"/>
+
+        <Spinner
+            android:id="@+id/spinnerFollowupType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/etFollowupNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:hint="Notes"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btnSaveFollowup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Follow-up"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#34729C"
+            android:padding="12dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</ScrollView>

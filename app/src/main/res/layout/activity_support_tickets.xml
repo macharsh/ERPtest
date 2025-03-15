@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8EAEC"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Support Tickets"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1E5470"
+            android:layout_gravity="center"
+            android:paddingBottom="10dp" />
+
+        <EditText
+            android:id="@+id/etTicketID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ticket ID (Auto-generated)"
+            android:padding="10dp"
+            android:background="#FFFFFF"
+            android:enabled="false"/>
+
+        <Spinner
+            android:id="@+id/spinnerCustomer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/etIssueDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Issue Description"
+            android:padding="10dp"
+            android:background="#FFFFFF"/>
+
+        <Spinner
+            android:id="@+id/spinnerPriority"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="10dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="10dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerAssignedTo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/etNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Notes"
+            android:padding="10dp"
+            android:background="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnSaveTicket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Ticket"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#34729C"
+            android:padding="12dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</ScrollView>

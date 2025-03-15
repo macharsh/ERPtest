@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/txtEmployeeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/txtEmployeeEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="14sp"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/txtEmployeePhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textSize="14sp"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/txtEmployeeDesignation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Designation"
+        android:textSize="14sp"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/txtEmployeeDepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Department"
+        android:textSize="14sp"
+        android:paddingBottom="4dp"/>
+</LinearLayout>

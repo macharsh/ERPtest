@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#C8EAEC">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dashboard"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#1E5470"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnSales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sales Module"
+        android:backgroundTint="#34729C"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnCRM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CRM Module"
+        android:backgroundTint="#34729C"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnManufacturing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manufacturing Module"
+        android:backgroundTint="#34729C"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnInventory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inventory Module"
+        android:backgroundTint="#34729C"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnHR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HR Module"
+        android:backgroundTint="#34729C"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>

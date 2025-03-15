@@ -1,0 +1,9 @@
+<resources>
+    <color name="light_cyan">#C8EAEC</color>
+    <color name="blue">#34729C</color>
+    <color name="sky_blue">#6CB1DA</color>
+    <color name="dark_blue">#1E5470</color>
+    <color name="teal_blue">#6EC1D1</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

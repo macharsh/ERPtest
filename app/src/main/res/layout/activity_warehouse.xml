@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#C8EAEC">
+
+    <EditText
+        android:id="@+id/etWarehouseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Warehouse Name"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etWarehouseLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etWarehouseCapacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Capacity"
+        android:minHeight="48dp" />
+
+    <Spinner
+        android:id="@+id/spManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnSaveWarehouse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Warehouse"
+        android:backgroundTint="#34729C"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

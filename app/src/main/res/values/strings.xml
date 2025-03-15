@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Testm</string>
+    <string name="employee_name">Employee Name</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="save_employee">Save Employee</string>
+    <string name="phone_number">Phone Number</string>
+    <string-array name="user_types">
+        <item>Admin</item>
+        <item>Employee</item>
+    </string-array>
+</resources>

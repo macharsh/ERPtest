@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#C8EAEC">
+
+    <Spinner
+        android:id="@+id/spItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Item"/>
+
+    <Spinner
+        android:id="@+id/spFromWarehouse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="From Warehouse"/>
+
+    <Spinner
+        android:id="@+id/spToWarehouse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="To Warehouse"/>
+
+    <TextView
+        android:id="@+id/tvCurrentStock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Stock: -"
+        android:textSize="18sp"
+        android:textColor="#1E5470"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/etTransferQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Quantity to Transfer"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnTransferStock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transfer Stock"
+        android:backgroundTint="#34729C"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"/>
+</LinearLayout>

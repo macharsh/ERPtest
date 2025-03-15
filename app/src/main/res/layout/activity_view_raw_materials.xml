@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#C8EAEC">
+
+    <EditText
+        android:id="@+id/etSearchRawMaterial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search Raw Material"
+        android:padding="10dp"
+        android:backgroundTint="#34729C"
+        android:drawableLeft="@android:drawable/ic_menu_search"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerRawMaterials"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="10dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnExportRawMaterials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Export to Excel"
+        android:backgroundTint="@color/sky_blue"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

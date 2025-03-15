@@ -1,0 +1,44 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/light_cyan">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etInvoiceNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Invoice Number"
+            android:minHeight="48dp" />
+
+        <Spinner
+            android:id="@+id/spCustomerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/tvInvoiceDate"
+            android:text="Invoice Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/spProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/btnSaveInvoice"
+            android:text="Save Invoice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>

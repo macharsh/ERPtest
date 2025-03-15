@@ -1,0 +1,57 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#C8EAEC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinnerProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#34729C"
+            android:hint="Select Product"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+
+        <Spinner
+            android:id="@+id/spinnerRawMaterial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#34729C"
+            android:hint="Select Raw Material"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/etQuantityRequired"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#34729C"
+            android:hint="Quantity Required"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+
+        <Spinner
+            android:id="@+id/spinnerUnit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/unit_options"
+            android:backgroundTint="#34729C"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btnSaveBOM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save BOM"
+            android:backgroundTint="@color/sky_blue"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</ScrollView>

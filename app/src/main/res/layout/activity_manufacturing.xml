@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C8EAEC"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manufacturing Dashboard"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#1E5470"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnAddProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Product"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#34729C"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnViewProducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Products"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#34729C"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnBOM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bill of Materials"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#34729C"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnAddRawMaterial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Raw Material"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#34729C"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnViewRawMaterials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Raw Materials"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#34729C"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnExportData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Export Data"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/dark_blue"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

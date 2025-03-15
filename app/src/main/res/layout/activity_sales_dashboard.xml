@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/light_cyan">
+
+    <TextView
+        android:id="@+id/tvCRMTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sales Dashboard"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#1E5470"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"/>
+    <Button
+        android:id="@+id/btnSalesOrder"
+        android:text="Sales Order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_blue"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnCustomer"
+        android:text="Customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/sky_blue"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnInvoice"
+        android:text="Invoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnPayment"
+        android:text="Payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/dark_blue"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnExportData"
+        android:text="Export Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

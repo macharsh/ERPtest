@@ -1,0 +1,65 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#C8EAEC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#34729C"
+            android:hint="Product Name"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/etProductDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#34729C"
+            android:hint="Product Description"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/etProductCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#34729C"
+            android:hint="Product Code"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+
+        <Spinner
+            android:id="@+id/spinnerUnit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/unit_options"
+            android:backgroundTint="#34729C"
+            android:padding="10dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/category_options"
+            android:backgroundTint="#34729C"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btnSaveProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Product"
+            android:backgroundTint="@color/sky_blue"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</ScrollView>

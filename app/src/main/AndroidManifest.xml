@@ -1,0 +1,61 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.testm">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Testm">
+
+        <!-- Splash Screen -->
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.SplashScreen"
+            android:exported="true"> <!-- Fixed issue for Android 12+ -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Authentication -->
+        <activity android:name=".LoginActivity" android:exported="false"/>
+        <activity android:name=".RegistrationActivity" android:exported="false"/>
+
+        <!-- Dashboard -->
+        <activity android:name=".AdminDashboardActivity" android:exported="false"/>
+        <activity android:name=".EmployeeDashboardActivity" android:exported="false"/>
+
+        <!-- Manufacturing Module -->
+        <activity android:name=".ManufacturingDashboardActivity" android:exported="false"/>
+        <activity android:name=".ProductsActivity" android:exported="false"/>
+        <activity android:name=".BOMActivity" android:exported="false"/>
+        <activity android:name=".RawMaterialsActivity" android:exported="false"/>
+
+        <!-- Sales Module -->
+        <activity android:name=".SalesDashboardActivity" android:exported="false"/>
+        <activity android:name=".SalesOrderActivity" android:exported="false"/>
+        <activity android:name=".CustomerActivity" android:exported="false"/>
+        <activity android:name=".InvoiceActivity" android:exported="false"/>
+        <activity android:name=".PaymentActivity" android:exported="false"/>
+
+        <!-- CRM Module -->
+        <activity android:name=".CRMDashboardActivity" android:exported="false"/>
+        <activity android:name=".CustomerActivity" android:exported="false"/>
+        <activity android:name=".LeadsActivity" android:exported="false"/>
+        <activity android:name=".SupportTicketsActivity" android:exported="false"/>
+
+        <!-- Inventory Module -->
+        <activity android:name=".InventoryDashboardActivity" android:exported="false"/>
+        <activity android:name=".StockManagementActivity" android:exported="false"/>
+        <activity android:name=".WarehouseActivity" android:exported="false"/>
+
+        <!-- HR Module -->
+        <activity android:name=".HRDashboardActivity" android:exported="false"/>
+        <activity android:name=".EmployeeManagementActivity" android:exported="false"/>
+        <activity android:name=".AttendanceActivity" android:exported="false"/>
+        <activity android:name=".PayrollActivity" android:exported="false"/>
+
+    </application>
+</manifest>
